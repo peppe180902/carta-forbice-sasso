@@ -22,15 +22,23 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Carta, forbice e sasso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sono un assiduo giocatore, per questo voglio giocare a “carta forbice e sasso”.
+  
+Acceptance Criteria
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Posso giocare Umano vs Computer?
+- Posso giocare Computer vs Computer?
+- Posso giocare una nuova partita conclusa quella precedente?
+- User Story Back - Technical Constraints
 
-## Deploy on Vercel
+Non è necessaria una GUI appariscente (può essere semplice)
+Non dovrebbero essere necessarie librerie o moduli esterni se non per i test
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Usa le pratiche riconosciute nell’industry dello sviluppo software
+Considera di scrivere codice estendibile. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Se lo farai dovrebbe essere relativamente semplice estendere il gioco alla variante Rock, paper, scissors, lizard and Spock 
+
+Questo è un Minimum Viable Product: eleganza e semplicità battono una ricca lista di feature
