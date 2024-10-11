@@ -1,22 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import { Scelta } from '../interface';
+import { Scelta, scelte } from '../config/gameConfig';
 
 interface SceltaGiocatoreProps {
   onScelta: (scelta: Scelta) => void;
 }
 
 const SceltaGiocatore: React.FC<SceltaGiocatoreProps> = ({ onScelta }) => {
-  const scelte: { valore: Scelta; immagine: string }[] = [
-    { valore: 'sasso', immagine: '/img/sasso.png' },
-    { valore: 'carta', immagine: '/img/carta.png' },
-    { valore: 'forbice', immagine: '/img/forbice.png' },
-  ];
-
   return (
     <div className="mb-6">
       <h2 className="text-xl font-semibold mb-3">Fai la tua scelta:</h2>
-      <div className="flex justify-center space-x-6">
+      <div className="flex flex-wrap justify-center gap-4">
         {scelte.map(({ valore, immagine }) => (
           <button
             key={valore}

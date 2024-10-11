@@ -5,6 +5,7 @@ export type ModalitaGioco = 'umano-vs-computer' | 'computer-vs-computer';
 export interface StatoGioco {
   sceltaGiocatore: Scelta | null;
   sceltaComputer: Scelta | null;
+  sceltaComputer2: Scelta | null;
   risultato: Risultato | null;
   modalitaGioco: ModalitaGioco;
   punteggioGiocatore: number;
