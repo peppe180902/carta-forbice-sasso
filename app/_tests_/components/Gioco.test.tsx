@@ -19,7 +19,7 @@ describe('Componente Gioco', () => {
     render(<Gioco />);
     const sceltaSasso = screen.getByAltText('sasso');
     fireEvent.click(sceltaSasso);
-    expect(screen.getByText(/vince il round!/)).toBeInTheDocument();
+    expect(screen.getByText(/in questo round!/)).toBeInTheDocument();
   });
 
   test('Inizia una nuova partita', () => {
